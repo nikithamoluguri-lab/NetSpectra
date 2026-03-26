@@ -1,0 +1,9 @@
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.26.2
+streamlit==1.29.0
+scapy==2.5.0
+pyshark==0.6
+joblib==1.3.2
+plotly==5.18.0
+psutil==5.9.7
