@@ -1,7 +1,8 @@
+streamlit==1.32.0
+altair==4.2.2
 scikit-learn
 pandas
 numpy
-streamlit
 joblib
 plotly
 psutil
