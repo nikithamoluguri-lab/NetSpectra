@@ -10,6 +10,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
+import altair as alt
 
 # ── Project imports ──────────────────────────────────────
 from database import (
