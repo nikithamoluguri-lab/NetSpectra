@@ -10,7 +10,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
-import altair as alt
+
 
 # ── Project imports ──────────────────────────────────────
 from database import (
@@ -26,7 +26,7 @@ from incident_reconstruction import reconstruct_incidents, generate_incident_rep
 
 # ── Page config ──────────────────────────────────────────
 st.set_page_config(
-    page_title="AI Network Anomaly Detection",
+    page_title="NetGrad",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -240,8 +240,8 @@ with st.sidebar:
 
 
 # ── Main title ────────────────────────────────────────────
-st.markdown("# 🛡️ AI Network Anomaly Detection System")
-st.caption("Real-time network monitoring | Isolation Forest | SQLite | Streamlit")
+st.markdown("# 🛡️ NetGrad")
+st.caption("AI Network Anomaly Detection System")
 st.markdown("---")
 
 
@@ -547,4 +547,4 @@ with tab5:
 
 # ── Footer ────────────────────────────────────────────────
 st.markdown("---")
-st.caption("🛡️ AI Network Anomaly Detection System | Built with Python · Scikit-learn · Streamlit · Plotly")
+st.caption("🛡️ NetGrad | AI Network Anomaly Detection System")
